@@ -6,3 +6,6 @@ if (typeof define === "function") {
         return sjcl;
     });
 }
+if(typeof window !== 'undefined') {
+  window['sjcl'] = sjcl;
+}
